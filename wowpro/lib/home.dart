@@ -34,7 +34,8 @@ class _HomeState extends State<Home> {
               Navigator.pushNamed(context, '/profile');
             },
           ),
-        ]),
+        ],
+      backgroundColor: Colors.black54,),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
