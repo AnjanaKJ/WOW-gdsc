@@ -24,7 +24,8 @@ class _ChatbotState extends State<Chatbot> {
             Navigator.pushNamed(context, '/profile');
           },
         ),
-      ]),
+      ],
+        backgroundColor:Colors.black54,),
       body: Column(
         children: [
           const SizedBox(
