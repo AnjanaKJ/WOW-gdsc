@@ -14,8 +14,7 @@ void main() {
       '/range': (context) => const Range(),
       '/profile': (context) => const profile(),
       '/home': (context) => const Home(),
-      '/chat':(context) => const Chatbot()
-
+      '/chat': (context) => const Chatbot()
       // Add other named routes for other pages
     },
   ));
@@ -34,27 +33,30 @@ class _SignInPageState extends State<SignInPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Sign In'), actions: [
-        IconButton(
-          icon: const Icon(Icons.home),
-          onPressed: () {
-            Navigator.pushNamed(context, '/home');
-          },
-        ),
-        IconButton(
-          icon: const Icon(Icons.comment),
-          onPressed: () {
-            Navigator.pushNamed(context, '/chat');
-          },
-        ),
-        IconButton(
-          icon: const Icon(Icons.person),
-          onPressed: () {
-            Navigator.pushNamed(context, '');
-          },
-        ),
-      ],
-       backgroundColor: Colors.black54,),
+      appBar: AppBar(
+        title: const Text('Sign In'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.home),
+            onPressed: () {
+              Navigator.pushNamed(context, '/home');
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.comment),
+            onPressed: () {
+              Navigator.pushNamed(context, '/chat');
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.person),
+            onPressed: () {
+              Navigator.pushNamed(context, '/profile');
+            },
+          ),
+        ],
+        backgroundColor: Colors.black54,
+      ),
       body: Padding(
         padding: const EdgeInsets.all(30.0),
         child: Container(
@@ -105,3 +107,4 @@ class _SignInPageState extends State<SignInPage> {
     );
   }
 }
+
