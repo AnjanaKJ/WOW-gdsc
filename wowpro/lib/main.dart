@@ -53,7 +53,8 @@ class _SignInPageState extends State<SignInPage> {
             Navigator.pushNamed(context, '');
           },
         ),
-      ]),
+      ],
+       backgroundColor: Colors.black54,),
       body: Padding(
         padding: const EdgeInsets.all(30.0),
         child: Container(
@@ -92,6 +93,9 @@ class _SignInPageState extends State<SignInPage> {
                     MaterialPageRoute(builder: (context) => const Home()),
                   );
                 },
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.black54,
+                ),
                 child: const Text('Sign In'),
               ),
             ],
