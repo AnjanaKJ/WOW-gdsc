@@ -65,9 +65,9 @@ class _HomeState extends State<Home> {
             "Within next month it will reach 5.77%",
             style: TextStyle(fontSize: 18)
           )
-          // Add other data or widgets related to inflation prediction app
         ],
       ),
     );
   }
 }
+
