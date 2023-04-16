@@ -10,7 +10,8 @@ class _RangeState extends State<Range> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Inflation Prediction')),
+      appBar: AppBar(title: const Text('Inflation Prediction'),
+                    backgroundColor:Colors.black54,),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
