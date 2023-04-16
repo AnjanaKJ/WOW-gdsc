@@ -14,6 +14,7 @@ class _profileState extends State<profile> {
       appBar: AppBar(
         title: const Text("Time"),
         centerTitle: true,
+        backgroundColor:Colors.black54,
       ),
       body: Padding(
         padding: const EdgeInsets.fromLTRB(30.0, 40.0, 20.0, 20.0),
