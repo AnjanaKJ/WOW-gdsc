@@ -25,7 +25,8 @@ class _ChatbotState extends State<Chatbot> {
           },
         ),
       ],
-        backgroundColor:Colors.black54,),
+      backgroundColor:Colors.black54,
+      centerTitle: true,),
       body: Column(
         children: [
           const SizedBox(
@@ -66,6 +67,7 @@ class _ChatbotState extends State<Chatbot> {
             style: TextStyle(fontSize: 12),
           ),
         ],
+        
       ),
     );
   }
