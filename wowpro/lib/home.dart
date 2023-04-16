@@ -61,26 +61,8 @@ class _HomeState extends State<Home> {
             height: 20.0,
           ),
           const Text(
-            "ENTER THE RANGE YOU WANT TO CHECK YOUR INFLATION",
-            style: TextStyle(fontSize: 10),
-          ),
-          const Padding(
-            padding: EdgeInsets.all(20.0),
-            child: TextField(
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                labelText: 'Year',
-              ),
-            ),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => const Range()),
-              );
-            },
-            child: const Text('Search'),
+            "Within next month it will reach 5.77%",
+            style: TextStyle(fontSize: 18)
           )
           // Add other data or widgets related to inflation prediction app
         ],
