@@ -46,8 +46,8 @@ class _HomeState extends State<Home> {
           const SizedBox(
             height: 15.0,
           ),
-          Image.network(
-            'https://tse3.mm.bing.net/th?id=OIP.QWaIoRDI5iDuQBBiGBUaSQHaF9&pid=Api&P=0', // Replace with your image file path
+          Image.asset(
+            'plot.jpg', // Replace with your image file path
             height: 350,
             width: 900,
             fit: BoxFit.contain,
