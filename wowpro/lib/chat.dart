@@ -61,7 +61,7 @@ class _ChatbotState extends State<Chatbot> {
             height: 20.0,
           ),
           const Text(
-            "ENGAGE A SMART CONVERSTAION WITH OUR CHAT_BOt",
+            "ENGAGE A SMART CONVERSTAION WITH OUR CHAT_BOT",
             style: TextStyle(fontSize: 12),
           ),
         ],
