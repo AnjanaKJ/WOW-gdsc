@@ -12,9 +12,16 @@ class _profileState extends State<profile> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Time"),
+        title: const Text("PROFILE"),
         centerTitle: true,
-        backgroundColor:Colors.black54,
+        backgroundColor: Colors.black54,
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.home),
+            onPressed: () {
+              Navigator.pushNamed(context, '/home');
+            },
+          ),]
       ),
       body: Padding(
         padding: const EdgeInsets.fromLTRB(30.0, 40.0, 20.0, 20.0),
